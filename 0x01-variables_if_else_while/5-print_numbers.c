@@ -5,12 +5,13 @@
  */
 int main(void)
 {
-	char c;
+	int c;
 
-	for (c = 'a'; c <= 'z'; c++)
+	c = 0;
+	while (c < 10)
 	{
-		if (c != 'e' && c != 'q')
-			putchar(c);
+		printf("%d", c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
