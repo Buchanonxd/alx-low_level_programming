@@ -3,12 +3,13 @@
  * _memcpy - copies memory area
  * @dest:  destination
  * @src:  source
- * n: number of bytes copied
+ * @n: length of src
+ * Return: dest
  */
-
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
+
 	for (i = 0; i < n; i++)
 	{
 		dest[i] = src[i];
