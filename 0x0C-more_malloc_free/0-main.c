@@ -4,10 +4,10 @@
 #include <limits.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+* main - check the code
+*
+* Return: Always 0.
+*/
 int main(void)
 {
 char *c;
@@ -29,4 +29,3 @@ free(f);
 free(d);
 return (0);
 }
-
