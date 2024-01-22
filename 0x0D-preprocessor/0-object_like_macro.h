@@ -1,6 +1,11 @@
-#ifndef OBJECT_LIKE_MACRO_H
-#define OBJECT_LIKE_MACRO_H
-#include <stdio.h>
+#ifndef MACRO_H
+#define MACRO_H
+
+/**
+ * file: 0-object_like_macro.h
+ *
+ * desc: header file
+ */
 
 #define SIZE 1024
 
